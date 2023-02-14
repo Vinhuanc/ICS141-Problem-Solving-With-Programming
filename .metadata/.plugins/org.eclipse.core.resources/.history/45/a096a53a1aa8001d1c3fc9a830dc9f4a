@@ -1,0 +1,38 @@
+package midterm1Question2;
+
+import java.util.Scanner;
+
+public class CustomerDriver {
+
+	public static void main(String[] args) {
+		// instantiating scanner object
+		// responds to Question #6
+		Scanner userInput = new Scanner(System.in);
+		String response = "y";
+		
+		
+		
+		while(response.equalsIgnoreCase("y")) {
+		System.out.println("Please enter a product ID: ");
+		int id = userInput.nextInt();
+		userInput.nextLine();
+		System.out.println("Please enter a product name: ");
+		String name = userInput.nextLine();
+		System.out.println("Please enter a product price: ");
+		int price = userInput.nextInt();
+		userInput.nextLine();
+		while(price <= 0) {
+			System.err.println("Price cannot be equal or less than zero. Reenter.");
+			price = userInput.nextInt();
+		}
+		Product myProduct = new Product(id, name, price);
+		System.out.println(myProduct.toString() + "\n");
+		System.out.println("Would you like to enter more product? (y/n): ");
+		response = userInput.nextLine();
+		}
+		
+		System.out.println("You've selected exit. Goodbye!");
+		userInput.close();
+	}
+
+}

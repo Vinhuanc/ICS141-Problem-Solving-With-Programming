@@ -1,0 +1,20 @@
+package retail;
+
+public class RetailStoreDriver {
+
+	public static void main(String[] args) {
+		RetailItem skirt = new RetailItem("White skirt", 25.00);
+		RetailItem boots = new RetailItem("Black Boots", 40.00);
+
+//		System.out.print(skirt.toString());
+//		System.out.print(boots.toString());
+
+		System.out.print("The Description is: "+ skirt.getDescription() + "\n");
+		System.out.print("The units on hand is: "skirt.getUnitsOnHand() + "\n");
+		System.out.print("The price is: "skirt.getPrice() + "\n");
+		System.out.print(skirt.toString() + "\n");
+
+
+	}
+
+}

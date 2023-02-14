@@ -1,0 +1,14 @@
+package retail;
+
+public class RetailStoreDriver {
+
+	public static void main(String[] args) {
+		RetailItem skirt = new RetailItem("White skirt", 25.00);
+		RetailItem boots = new RetailItem("Black Boots", 40.00);
+
+		System.out.print(skirt.toString());
+		System.out.print(boots.toString());
+
+	}
+
+}

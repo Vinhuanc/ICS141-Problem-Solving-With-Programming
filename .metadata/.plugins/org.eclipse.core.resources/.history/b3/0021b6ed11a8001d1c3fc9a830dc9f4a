@@ -1,0 +1,77 @@
+package midterm1Question1;
+
+public class Customer {
+	private int id;
+	private String name;
+	private String address;
+	private String phone;
+	
+	
+	public Customer() {
+		this.id = 1;
+		this.name = "emma";
+		this.address = "1042 Anderson Drive, St.Paul, MN 55110";
+		this.phone = "651-111-2341";
+	}
+	
+	
+	public Customer(int custID, String custName, String custAddress, String custPhone) {
+		this.id = custID;
+		this.name = custName;
+		this.address = custAddress;
+		this.phone = custPhone;
+	}
+
+
+	public int getInt() {
+		return id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	
+	public String getAddress() {
+		return address;
+	}
+	
+	public String getPhone() {
+		return phone;
+	}
+	
+	
+	
+	
+	public void setInt(int customerID) {
+		this.id = customerID;
+	}
+	
+	
+	
+	public void setName(String customerName) {
+		this.name = customerName;
+	}
+	
+	
+	
+	public void setAddress(String customerAddress) {
+		this.address = customerAddress;
+	}
+	
+	public void setPhone(String customerPhone) {
+		this.phone = customerPhone;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", name=" + name + ", address=" + address + ", phone=" + phone + "]";
+	}
+	
+	
+	
+	
+	
+	
+}
