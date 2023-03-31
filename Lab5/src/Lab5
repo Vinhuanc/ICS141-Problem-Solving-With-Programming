@@ -1,0 +1,41 @@
+METRO STATE UNIVERSITY
+ICS 141 - 2: Problem solving with programming
+Spring 2023
+Lab 5: Class, Objects, Methods in Java
+Wednesday, February, 15th, 2023 @ 11:59 pm
+Total points: 20
+NOTE: To receive credit for this lab assignment, demonstrate your solution to your lab
+instructor before you leave. Work is to be completed during the face-to-face lab session;
+however, if time runs out and the student has demonstrated significant progress, they can
+continue to finish the lab and submit it via D2L on Sunday, February, 19th, 2023 @ 11:59 pm.
+Goals: Implement and invoke methods
+The goal of ‘Lab5’ is to help reinforce Class(es), Objects and Methods.
+Part 1: Describing a class
+1. Find an object in the real-world; your object cannot be a Car, an Animal a Book or any of the
+objects covered in class or any of the recordings.
+2. Create a Class with the name of your object.
+3. Describe the class by adding 3 instance variables.
+4. Add a parameterized Constructor that takes in 3 inputs to initialize the instance variables.
+5. Add Getters and Setters for all the variables.
+6. Add a toString() method to print the details of your object.
+Part 2: Programmer Design methods
+1. Considering the real-world object you selected in Part1, create 4 additional methods.
+a. One method of type void.
+b. One method of type int.
+c. One of type String.
+d. One Static method to be call on the class.
+Part 3: Creating objects
+1. Create a ThingDriver class. (*the driver class is the name of your object + the word Driver)
+2. Instantiate 2 objects using the parameterized constructor.
+3. Print the details of both objects.
+Part 4: Respond to these questions in your code using comments
+1. What are the similarities between a Class, Object and Method?
+2. What are the differences between a Class, Object and Method?
+3. What is the importance of using a UML?
+4. What happens when we add static to a method?
+5. Can we instantiate an object if our class doesn’t have a constructor? What does adding a
+constructor to a class do?
+6. How is a constructor different from a class?
+Part 4: Respond to the questions in your code – do some research
+1. Right click on the src folder and export your code. Create a zip with your name i.e.
+DillonLab5 and upload it to D2L Lab5 drop box.

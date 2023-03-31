@@ -1,0 +1,9 @@
+Dog Class
+-name:String
+-age:int
+
++getName():String
++setName(name:String):void
++getAge():int
++setAge(age:int):void
++toString():String

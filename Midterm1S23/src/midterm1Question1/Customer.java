@@ -18,10 +18,10 @@ public class Customer {
 	// address is 1042 Anderson Drive, St.Paul, MN 55110 USA, phone is 651-111-2341
 	// responds to Question #2
 	public Customer() {
-		this.id = 00;
-		this.name = "Emma Thompson";
-		this.address = "1042 Anderson Drive, St.Paul, MN 55110 USA";
-		this.phone = "651-000-0000";
+		id = 00;
+		name = "Emma Thompson";
+		address = "1042 Anderson Drive, St.Paul, MN 55110 USA";
+		phone = "651-000-0000";
 	}
 
 	// Instantiating new object constructor

@@ -1,0 +1,31 @@
+METRO STATE UNIVERSITY
+ICS 141 - 2: Problem solving with programming Spring 2023
+Lab 3:
+Selection and Loop statements in Java
+Wednesday, 25th, 2023 @ 11:59 pm
+Total points: 20
+NOTE: To receive credit for this lab assignment, demonstrate your solution to your lab instructor before you leave. Work is to be completed during the face-to-face lab session; however, if time runs out and the student has demonstrated significant progress, they can continue to finish the lab and submit it via D2L on Sunday, January, 29th, 2023 @ 11:59 pm.
+Goals : Using existing knowledge to develop applicable solutions
+• To write selection (if) statements in Java
+• To write looping (while) statements in Java
+Part1.Practicingthecounting loop
+Open Eclipse and create a new project 'Lab3'. Rename the src folder to 'Lab3'. Copy the ‘Dog’ and
+the `DogDriver` classes from ‘Lab2’ and paste them in the Lab3 src folder. If you encounter a package error, update the package at the top of each class.
+1. Using a counting loop as demonstrated in the recording; create as many Dog objects based on the user input.
+2. What part of the loop or the code was confusing? Use a single or multiline comment to explain any issues you encounter in with writing the solution to this question.
+CHECKPOINT: Show the output of your completed program to your lab instructor.
+Part 2. Practicing the sentinel loop
+1. Using a sentinel loop as demonstrated in the recording continue to prompt the user if they would like to enter details for another dog.
+2. After writing the sentinel loop, can you tell what the mean differences between the two loops? Which one do you feel more comfortable writing? Can you write either one directly from memory? Use a single or multiline comment to explain your answer.
+CHECKPOINT: Show the output of your completed program to your lab instructor.
+             
+Part 3. Upload your work to D2L
+1. Right click on the src folder and choose the Export... option.
+2. When asked to choose an Export Wizard, double click on General.
+3. Then click Archive File and Next. Make sure the radio button next to Save in zip format is selected.
+4. Use the Browse function to navigate to the H: drive, then make up a name for your file. You can name your archive file anything but it helps me find your work if you use your last name and the name of the lab so choose something like DillonLab03. Click Finish.
+5. Now login to D2L. From the home page, click on the Assessments drop down menu and select Assignments.
+6. From the Assignment Submission Folders page, select the Lab3 drop box.
+7. Click on Add a File, browse for the archive (.zip) file you created with Eclipse and Upload it. You can add a note if you like but you don’t have to. Click Submit to finish up.
+NOTE: To receive credit for this lab assignment, demonstrate your solution to your lab instructor before you leave. Work is to be completed during the face-to-face lab session today.
+   

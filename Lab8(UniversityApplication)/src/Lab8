@@ -1,0 +1,29 @@
+METRO STATE UNIVERSITY
+ICS 141 - 02: Problem solving with programming Spring 2023
+Total points: 20
+Lab 8: Inheritance and Polymorphism
+Wednesday, March 1st, 2023
+  NOTE: To receive credit for this lab assignment, demonstrate your solution to your lab instructor before you leave. Work is to be completed during the face-to-face lab session; however, if time runs out and the student has demonstrated significant progress, they can continue to finish the lab and submit it via D2L on Sunday, March 5th, 2023 @ 11:59 pm. If you have to leave before you can show me your progress or get my help with a specific error, please send me an email before you leave or find me and let me know. This is not license to leave class early or to show up late.
+   Part 1. Understanding Inheritance and Polymorphism
+In this assignment, you be working in a group. You cannot receive help from the ICS tutors. Research by reading chapters 80, 81 and 82 of the online book by Bradley Kjell, link here: https://programmedlessons.org/Java9/index.html#part09
+1. Answer the questions below and upload your responses to the drop box before the due date.
+2. What is your understanding of inheritance in Java? Briefly describe or provide an example
+3. Why do we use inheritance? Can you recall a time that we use inheritance for any of the labs or
+assignments? Provide an example.
+4. What are the two types of class relationships in Java discussed in the reading?
+5. Which class is the root class of all the classes in Java? What is another name for this class?
+6. Describe Polymorphism? If possible, give an example that relates to the real-world.
+7. What’s the difference between methods overloading vs. overriding? Provide more than just the
+definition.
+Part 2. Implementing Inheritance and Polymorphism
+To make sure you understand Inheritance based on the reading, lecture demo and class discussion. You and your group member(s) come up with a Single inheritance relationship and implement the code. You must test your code by instantiating objects and calling the methods you implement. Based on the Class Hierarchy, a child has access to the parent’s methods so call a method in the parent class on a child class and verify it works. Test the reverse. What happens? Do you know why?
+Submission Instructions
+ Create a java project and call it <yourLastName>Lab8 (e.g., mine will be called DillonLab8)
+ Create one.java files to solve the problem described above. Export your .java file into a zip file using Eclipse using
+the following steps:
+o In Eclipse Project Explorer, right click on the src folder of the project and click on Export.
+o Choose General then Archive File and click Next.
+o Use the Browse key to choose a folder to store the archive file on your hard drive and give the file the
+same name as your project (e.g., DillonLab8.zip), then click Save, then click Finish. o Upload the .zip file you created to the D2L folder called Lab8.
+ It is important that you upload only one zip file. Your assignment will not be graded if you upload individual .java files to the drop box.
+      

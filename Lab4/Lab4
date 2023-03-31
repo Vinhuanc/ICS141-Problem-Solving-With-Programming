@@ -1,0 +1,52 @@
+METRO STATE UNIVERSITY
+ICS 141 - 2: Problem solving with programming Spring 2023
+Lab 4: Methods in Java
+Wednesday, February, 1st, 2023 @ 11:59 pm
+Total points: 20
+NOTE: To receive credit for this lab assignment, demonstrate your solution to your lab instructor before you leave. Work is to be completed during the face-to-face lab session; however, if time runs out and the student has demonstrated significant progress, they can continue to finish the lab and submit it via D2L on Sunday, February, 5th, 2023 @ 11:59 pm.
+Goals : Implement and invoke methods
+Copy ‘Lab3’ and rename it ‘Lab4’. Update 'Lab4’, and add a new class call Method to implement Part1.
+Part 1 : Practicing using methods
+1. In the Method class, declare a private static int variable call count.
+2. Implement a static method call multiConcat, which takes two input parameters of types
+String and int, and returns a String that is the parameter string concatenated with itself x number of times (where x is the second int parameter). For example, if the parameters are "hi" and 4, the return value is "hihihihi".
+3. Divide your work into step as follows:
+        a)
+b)
+c)
+Write the method header. You need to answer the following questions to find out the different parts of the method header:
+i What is the data type of the method output?
+ii What is the method name?
+iii What is the data type of the first input parameter?
+iv What is the data type of the second input parameter?
+Write the method body as follows:
+i Declare a local String variable that will be used to hold the output.
+ii Write a loop and the number of iterations should equal to the method's second
+input parameter.
+iii Inside the loop's body, append the first input parameter to the output string.
+iv Write a return statement to return the output string.
+Add statements in the main method to test your method as follows:
+i Ask the user to enter a string and read the string.
+ii Ask the user to enter the number of repetitions and read the number.
+iii In the DogDriver, call the muliConcat method on the Method class pass in the
+user inputs as parameters. Store the results from the method call in a variable.
+iv Print the variable.
+
+Part 2 : Writing and invoking methods
+After completing Part1, Make changes to the ‘Dog’ class and add the methods below in Part2. In the `DogDriver` class, test the method by calling each method on any of the ‘Dog’ objects. Submit the updated code in the Lab4 drop box.
+1. Add a method call price, which returns a double that takes in two inputs of type int call quantity and type double call price.
+2. Add a method call greetings, which returns a String that takes in one input of type String call greet.
+3. Add a void method call makeSound, which prints a sound when call from the DogDriver.
+4. Add a void method call eat, which takes in one input of type String call brand and prints
+the food brand the dog likes.
+CHECKPOINT: Show the output of your completed program to your lab instructor.
+Part 3. Upload your work to D2L
+1. Right click on the src folder and choose the Export... option.
+2. When asked to choose an Export Wizard, double click on General.
+3. Then click Archive File and Next. Make sure the radio button next to Save in zip format is selected.
+4. Use the Browse function to navigate to the H: drive, then make up a name for your file. You can name your archive file anything but it helps me find your work if you use your last name and the name of the lab so choose something like DillonLab04. Click Finish.
+5. Now login to D2L. From the home page, click on the Assessments drop down menu and select Assignments.
+6. From the Assignment Submission Folders page, select the Lab4 drop box.
+7. Click on Add a File, browse for the archive (.zip) file you created with Eclipse and Upload it. You can add a note if you like but you don’t have to. Click Submit to finish up.
+NOTE: To receive credit for this lab assignment, demonstrate your solution to your lab instructor before you leave. Work is to be completed during the face-to-face lab session today.
+      

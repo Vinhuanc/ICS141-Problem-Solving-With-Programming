@@ -1,0 +1,68 @@
+
+Midterm 1 Part 2: Written Response
+Cindy Chen (username: dm6772mx)
+Attempt 1
+Written: Feb 8, 2023 6:19 PM - Feb 8, 2023 7:58 PM
+Attempt Feedback
+Excellent! Overall, your code meets all the requirements. Well done.
+
+Submission View
+Your quiz has been submitted successfully.
+Question 1		25 / 25 points
+ Stop and read the instructions carefully. Respond to each requirement as described in the question. Number each requirement in the code using either a single line or multi-line comment. Failure to follow these instructions and to use good programming rules such as; adding a description at the beginning of the program, naming classes and variables properly, declaring and initialing variables with the correct data type, organizing the code in an easy to read structure, adding appropriate comments to document the code, reading in the required inputs and printing the accurate outputs, will result in points deduction. All code must be error free and executable to receive points.
+Part 1: Designing a class based on UML specification
+
+
+Create a Java project and name it Midterm1S23
+Create a class based on the UML specification. Rename the default package and call it midterm1Question1. For the No-args constructor, set initial values for all the variables.
+Create a CustomerDriver and instantiate 2 objects using the parameterized constructor. Call the objects cust1, cust2 and pass in the actual values .
+Call/invoke the toString() method on the cust1 and cust2 to print the initial details.
+Instantiate another objects and call it cust3 using the no-args constructor. Call the toString() and print the initial details.
+Using the setters, update all the initial values for cust3. (*there MUST be a difference between the initial values and the changes made using the setters).
+Using the getters, print cust3 name, address and phone number. (*Use labels to clarify the value that is printed).
+Test the code and make sure it is error free and every requirement has been met.
+Enter this statement: "I have completed each requirement, 1-8" into the text area provided for question 1. Move on to question 2.
+I have completed each requirement, 1-8
+
+View question 1 feedback
+Question 2		25 / 25 points
+Stop and read the instructions carefully. Respond to each requirement as described in the question. Number each requirement in the code using either a single line or multi-line comment. Failure to follow these instructions and to use good programming rules such as; adding a description at the beginning of the program, naming classes and variables properly, declaring and initialing variables with the correct data type, organizing the code in an easy to read structure, adding appropriate comments to document the code, reading in the required inputs and printing the accurate outputs, will result in points deduction. All code must be error free and executable to receive points.
+
+ 
+Part 2: Designing a class based on user requirements:
+In the Java project folder, create a new package and call it midterm1Question2.
+Create a class call Product inside of the package.
+Add these 3 instance variables call; prodID of type int, prodName of type String, prodPrice of type int.(*to keep things simple I am asking for the variable to be an int)
+Add a parameterized constructor that takes in 3 inputs to initialize the instance variables.
+Override Java's object toString() method and provide code to print the Product details.
+Add a Scanner object inside of the CustomerDriver class. (*separate the code by grouping question1 separately from question2. It should be clear which code belongs to each question).
+Use a String sentinel loop:
+Prompt the user to enter a product ID, a product name and a prodPrice. (*The loop should continue to prompt the user to enter product details until the user decides to exit. The user should have clear instructions what response to enter to continue and to exit).
+Using another while loop check whether the prodPrice is <= 0:
+If the prodPrice <= 0, print an error message. Then prompt the user to enter a positive number greater than 0. While the prodPrice <= 0, keep prompting the user until a number greater than 0 is entered.
+Instantiate a new Product object call myProduct, using the inputs captured from the user. (*if you get an error creating the Product, it means the class needs to be imported into the CustomerDriver)
+Call the toString() in the Product class to print myProduct details, each iteration through the loop.
+End the loop, when the user provides an appropriate response to exit the loop.
+Print a goodbye message letting the user know they have decided to exit the program.
+Close the scanner.
+Test the code and make sure it is error free and every requirement has been met.
+Export and zip your code. Name the zip file i.e. "YourLastNameMidterm1S23". Upload/Attach the code to question 2.
+Enter this statement: "I have completed each requirement, 1-14" into the text area provided for question 2. Move on to question 3.
+I have completed each requirement, 1-14
+ChenMidterm1S23.zip (3.58 KB)			
+
+View question 2 feedback
+Question 3		9 / 10 points
+Stop and read the instructions carefully. Respond to each requirement as described in the question.  
+Part 3: Designing class based on requirements
+Design a UML base on question 2. Include your name, course and the date.
+Upload/Attach the UML file to question 3.
+Enter this statement: "I have completed each requirement, 1-2" into the text area provided for question 3. You are done and free to leave.
+I have completed each requirement, 1-2
+Question#2-UML.pdf (33.29 KB)			
+
+View question 3 feedback
+Attempt Score: 
+59 / 60
+Overall Grade (highest attempt): 
+59 / 60

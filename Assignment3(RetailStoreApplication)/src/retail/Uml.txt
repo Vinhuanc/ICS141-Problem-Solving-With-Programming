@@ -1,0 +1,39 @@
+Retail Item class UML:
+	+ RetailItem
+		- description : String
+		- unitsOnHand : int
+		- price : double
+		
+		+ RetailItem(description: String, price: double)
+		+ getDescription() : String
+		+ getUnitsOnHand() : int
+		+ getPrice() : double
+		+ toString() : String
+		+ addUnits(unit:int) : int
+		+ getUnits(unit:int) : boolean
+		+ changePrice(p: double) : void
+		+ equals(item:RetailItem) : void
+		+ totalValue() : double
+	
+Cash Register class UML:
+	+ CashRegister
+		- clerk : String
+		- item : RetailItem
+		- quantity : int
+		
+		+CashRegister(clerk:String, item:RetailItem, quantity:int)
+		+getClerk(): String
+		+getItem() : RetailItem
+		+getQuantity(): int
+		+getSubTotal(): double
+		+getItemAvailabilty(): int
+		+modifyQuantity(x:int) : void
+		+getTax(tax:double) : double
+		+getTotal(tax:double) : double
+		+toString() : String
+		
+		
+		
+		
+		
+		
