@@ -8,6 +8,15 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/cindy/eclipse-workspace/Lab4"/>
+			<item value="/Users/cindy/eclipse-workspace/Assignment4(MyMusicApp)"/>
+			<item value="/Users/cindy/eclipse-workspace/Midterm1S23"/>
+			<item value="/Users/cindy/eclipse-workspace/Assignment1"/>
+			<item value="/Users/cindy/eclipse-workspace/MyMusicApp"/>
+			<item value="/Users/cindy/eclipse-workspace/Lab3"/>
+			<item value="/Users/cindy/eclipse-workspace/Lab2(DogApplication)"/>
+			<item value="/Users/cindy/Desktop/Lab2(DogApplication)"/>
+			<item value="/Users/cindy/eclipse-workspace/Lab1(HelloWorld)"/>
 			<item value="/Users/cindy/Desktop/untitled folder/ChenAssignment1"/>
 			<item value="/Users/cindy/Desktop/ChenAssignment1"/>
 			<item value="/Users/cindy/Desktop/Lab3"/>
@@ -21,5 +30,8 @@
 			<item value="/Users/cindy/HRApplication"/>
 			<item value="/Users/cindy/Desktop/College/Problem Solving with Programming/Labs/Lab3/Lab3"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="/Users/cindy/eclipse-workspace/Lab4"/>
 	</section>
 </section>
