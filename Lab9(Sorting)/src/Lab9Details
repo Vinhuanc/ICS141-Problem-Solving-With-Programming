@@ -1,0 +1,41 @@
+METRO STATE UNIVERSITY
+ICS 141 - 02: Problem solving with programming
+Spring 2023
+Total points: 20
+Lab 9: Sorting
+Wednesday, April, 5th, 2023
+   NOTE: You will be working in groups. To receive credit for this lab assignment, you are expected to work with another student and to demonstrate your solution (even if it is partially completed) to the instructor before you leave class on Wednesday, April, 5th, 2023. If you are unable to demo your solution to the instructor, continue to work on the lab Only if you upload a version of your code to D2L during the lab session on April 5th, you may upload a completed version to the assigned D2L folder by Sunday, April 9th at 11:59 PM.
+This lab is divided into two parts:
+Part 1: testing the selection sort method on an array of integers. Part 2: using selection sort to sort an array of Employee objects.
+To start the lab, create a project in Eclipse, called Lab9, and then complete each one of three parts as explained below.
+Part 1. Sorting an array of integers
+In this part of the lab, you will use test the selection sort method and, then, you will modify the method to sort in descending order.
+1- To start, create a new Java class in your project, called SortingDriver, that includes the main method.
+2- Copy the selectionSort method from the lecture12 slides and paste it inside SortingDriver.
+3- Do the following in the main method:
+a. Declare an array of integers, called myNumbers, and initialize it with an initializer
+list with any numbers of your choice but make sure that the numbers are not sorted.
+b. Write a for loop to print the array on where all the numbers in one line tab-
+separated.
+c. Call the selectionSort method with myNumbers array as input.
+d. Write a for loop to print the array again after sorting and make sure the numbers
+are sorted in ascending order.
+4- Copy the selectionSort method and paste it again in SortingDriver class, change the method name to be selectionSortDescending.
+5- Change the code in the selectionSortDescending method such that the method sorts the array in descending order instead of ascending order.
+6- In main, call the selectionSortDescending method with myNumbers array as input, then print the array after the method and make sure that the numbers are sorted in descending order.
+    
+ Part 2. Sorting an array of Objects
+  In this part of the lab, you will use the selection sort algorithm to sort an array of Employee objects.
+1- Create a new class or copy the Employee class that you used in Assignment2.
+2- Implement the compareTo method in the Employee by implementing the Comparable<T> class. Make sure to implement the compareTo method to compare objects based on at least two instance variables. For example, use can compare two employees based on name,
+and hours (i.e., if two Employees have the same name, then they will be sorted on hours). 3- Add another class, called ObjectSortingDriver, to Lab9 project and this class should
+include a main method.
+4- Copy the selectionSort method and paste it in the ObjectSortingDriver class.
+Then, change the method input to be an Employee[] instead of int[]. Also, change the method code to use the compareTo method and change any other data types as appropriate.
+5- In the main method, create an Employee array of size 6 and fill it with 6 objects. Then write a for loop to print the array.
+6- In main method, call the selectionSort method with the Employee array you created in the previous step as input. Then, print the array again to make sure that the objects are sorted.
+Upload your work to D2L
+For this lab, you need to submit the following:
+1- A zip file that includes all .java files that you created in Lab9 project directory as explained above.
+NOTE: You will be working in groups. To receive credit for this lab assignment, you are expected to work with another student and to demonstrate your solution (even if it is partially completed) to the instructor before you leave class on Wednesday, April, 5th, 2023. If you are unable to demo your solution to the instructor, continue to work on the lab Only if you upload a version of your code to D2L during the lab session on April 5th, you may upload a completed version to the assigned D2L folder by Sunday, April 9th at 11:59 PM.
+     

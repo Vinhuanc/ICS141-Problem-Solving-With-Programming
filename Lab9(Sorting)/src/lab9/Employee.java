@@ -1,4 +1,4 @@
-package app;
+package lab9;
 public class Employee implements Comparable<Employee>{
 	private final double tax = 0.25;
 	private String name;
@@ -40,7 +40,7 @@ public class Employee implements Comparable<Employee>{
 
 	@Override
 	public String toString() {
-		return "The employee's name is " + this.name +", employee's rate is " + this.hourlyRate + ", employee's hours efeeereare " + this.hours + ".";
+		return "The employee's name is " + this.name +", employee's rate is " + this.hourlyRate + ", employee's hours are " + this.hours + ".";
 	}
 	
 	public double preTax() {
