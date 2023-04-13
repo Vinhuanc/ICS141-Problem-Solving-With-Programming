@@ -33,6 +33,8 @@ public class StudentDriver {
 			writeData.println(students[i]);
 		}
 		writeData.flush();
+		studentFileScan.close();
+		writeData.close();
 	}
 
 }

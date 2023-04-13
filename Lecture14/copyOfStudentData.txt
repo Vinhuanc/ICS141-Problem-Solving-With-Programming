@@ -1,0 +1,2 @@
+Student studentId:231, firstName:Cindy, lastName:Chen.
+Student studentId:341, firstName:Emily, lastName:Anderson.
