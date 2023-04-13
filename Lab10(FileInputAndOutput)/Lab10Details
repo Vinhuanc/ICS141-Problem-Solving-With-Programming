@@ -1,0 +1,39 @@
+METRO STATE UNIVERSITY
+ICS 141 - 02: Problem solving with programming Spring 2023
+Lab 10: File I/O
+Wednesday, April 12th, 2023
+ Total points: 20
+ NOTE: To receive credit for this lab, you are expected and MUST work with another student and to demonstrate your solution (even if it is partially completed) to the instructor before you leave class on Wednesday, April, 12th, 2023. If you are unable to demo your solution to the instructor, continue to work on the lab Only if you upload a version of your code to D2L during the lab session on April 12th, you may upload a completed version to the assigned D2L folder by Sunday, April 16th at 11:59 PM.
+Part 1. Reading from a file
+1. Create a new Java Project for this lab assignment. Call it Lab10.
+2. Download the data file, called Lab10-state-data.txt from D2L. It is located in the week14 folder. This file includes population information about the 50 USA states. Each line in the file consists of three fields where the first number is the overall state population, the second number the adult population, and the third field
+is the state name. For example, the following are the first few lines in the file:
+               4874747 3779274 Alabama
+               739795 554867 Alaska
+               7016270 5382780 Arizona
+               3004279 2298739 Arkansas
+               39536653 30476517 California
+3. On your computer, find the directory where your Eclipse projects are created and find project Lab10. Put the data file in the directory Lab10. The directory will look something like this:
+   
+4. Inside Lab10 project, create a file and call it 'FileIO.java', and this file should include only the main method.
+5. Write Java code to ask the user to enter the file name and then read the user input.
+6. Create a File object using the file name that is entered by the user.
+7. Create a Scanner object to read from the File object that you created in the previous step.
+8. Write a loop that uses hasNextLine() to read the file one line at a time and display the data on the screen. Inside the loop, read one line from the file using nextLine() and print the line on the screen. At the end of the loop, print how many lines are there in the file.
+9. When you run your program, you should see all the file contents printed on the screen.
+Part 2. Writing to a file
+13. In this part of the lab, you will read the data from the input file, process it, and save it another file.
+14. In this step, you will write the output to a file instead of writing it to the screen. Create a PrintWriter object and assign it to the output file name. Then, add a statement inside your 'while' loop to print the output to the output file in addition to printing it to the screen.
+15. Outside the loop, close the PrintWriter object so that you can open and read your output file.
+16. Open the output file and make sure that the data is correctly written.
+Upload your work to D2L
+1. Right click on the src folder and choose the Export... option.
+2. When asked to choose an Export Wizard, double click on General.
+3. Then click Archive File and Next. Make sure the radio button next to Save in zip format is selected.
+4. Use the Browse function to navigate to the H: drive, then make up a name for your file. You can name your archive file anything but it helps me find your work if you use your last name and the name of the lab so choose something like DillonLab10. Click Finish.
+5. Now login to D2L. From the home page, click on the Assessments drop down menu and select Assignments.
+6. From the Assignment Submission Folders page, select the Lab10 drop box.
+  
+7. Click on Add a File, browse for the archive (.zip) file you created with Eclipse and Upload it. You can add a note if you like but you don’t have to. Click Submit to finish up.
+NOTE: To receive credit for this lab, you are expected and MUST work with another student and to demonstrate your solution (even if it is partially completed) to the instructor before you leave class on Wednesday, April, 12th, 2023. If you are unable to demo your solution to the instructor, continue to work on the lab Only if you upload a version of your code to D2L during the lab session on April 12th, you may upload a completed version to the assigned D2L folder by Sunday, April 16th at 11:59 PM.
+  

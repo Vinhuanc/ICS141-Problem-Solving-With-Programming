@@ -1,0 +1,1 @@
+moduleSearchIndex = [{"l":"InheritanceWithInterface"}];updateSearchResults();

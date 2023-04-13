@@ -1,0 +1,4 @@
+Fruit [name=Apples, weight=1.2, price=2.59]
+Fruit [name=Orange, weight=0.5, price=0.89]
+Fruit [name=Banana, weight=0.2, price=3.07]
+Fruit [name=Grapes, weight=3.3, price=4.99]
