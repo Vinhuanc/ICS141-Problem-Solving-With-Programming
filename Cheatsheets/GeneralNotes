@@ -1,0 +1,88 @@
+public class Pet extends PetAbstract implements PetInterface, Comparable<Pet>{
+
+
+Interface is the empty method bodies
+
+public interface PetInterface {
+	public String healthCheck();
+	public double purchasePet();
+	public String getFavBrand(String brand);
+	public void changePrice(double amount);
+}
+
+An abstract class in Java is a class that is never instantiated. Its purpose is to be a parent to several related classes. The children classes inherit from the abstract parent class. It can be done by inheritance(extend keyword).
+example:
+	abstract class className{
+	}
+- Abstract classes have abstract and non-abstract methods
+- Abstract methods have no body statements. It has a access modifier, return type, and method signature
+- 
+
+In Java, polymorphism refers to the ability of a class to provide different implementations of a method, depending on the type of object that is passed to the method.
+
+
+
+
+
+
+
+static method
+- 
+- Static method: belong to the class
+- without-static: belong to the instance of the class
+
+
+Encapsulation, is to make sure that "sensitive" data is hidden from users.
+- Private variables and private methods
+
+Inheritance 
+- Child class can use the methods from the superclass
+- Extend keyword
+
+
+Polymorphism
+-many forms
+- Use the same method differently
+- 
+
+Abstraction
+- The idea of hiding certain details and showing only essential information to the user.
+- 
+
+Interface
+- A way to achieve abstraction is through interface
+- Used in grouping related methods with empty bodies
+- Implement keyboard
+- 
+
+No-args:
+- Declare default variables for new objects 
+- Tells what the initial values should be
+
+
+
+
+
+
+
+
+
+
+
+
+Polymorphism - objects taking many forms. Storing one type in another
+Upcasting: doesn’t change the object, stores the child object into the parent object reference container
+Downcasting: doesn’t change the object, squeezes the parent object into the child container 
+
+// Stored both subclasses Rose and Lilac, which extends Plant into a Plant reference 		
+	Plant plant1 = rose1;
+	Plant plant2 = lilac1;
+
+
+
+
+// when assigning subclasses into superclasses, need to case the object(promises it will fit)
+		Rose roseReferenceHoldsARose =  (Rose) plant1;
+		Lilac lilacReferenceHoldsLilac = (Lilac) plant2;
+	// roseReferenceHoldsARose is now a rose object
+
